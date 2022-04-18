@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 25px;
+    background: rgb(109, 109, 109);
+}
+.video {
+    width: 100%;
+    height: calc(100vh - 140px);
+    object-fit: cover;
+    background: rgb(48, 48, 48);
+    box-shadow: 0 0 1px 4px #858585;
+}
+.hide {
+    display: none;
+}
+.caption {
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px 0;
+}
+.btn_group {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    width: 45%;
+    height: 40px;
+    background: #5271ff;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.download {
+    display: flex;
+    justify-content: center;
+}
+a.btn {
+    width: 45%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.btn:hover {
+    background: #4264ff;
+}
+.disabled {
+    background: #bebebe;
+    opacity: 0.2;
+    cursor: unset;
+}
+.disabled:hover {
+    background: #bebebe;
+    opacity: 0.2;
+    cursor: unset;
+}
